@@ -13,25 +13,25 @@
 - 일일/누적 참여자 수
 ## 사용 방법
 1. Nginx 설치 (Ubuntu 기준)
-'''shell
+```shell
 sudo apt update
 sudo apt install nginx
-'''
+```
 2. 소스 다운
-'''shell
+```shell
 git clone # TODO
-'''
+```
 3. 다운 받은 소스를 Nginx doc root에 복사
-'''shell
+```shell
 cp mbti usr/share/nginx/html
-'''
+```
 4. Nginx 실행
-'''shell
+```shell
 sudo service nginx start
-'''
+```
 5. 접속 확인
-'''shell
+```shell
 curl localhost/mbti/index.html
-'''
+```
 # 참고 URL
 - Nginx 설치: https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
