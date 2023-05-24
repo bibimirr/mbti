@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#buttons {
+  margin-top: 10px;
+}
+
+#result-container {
+  margin-top: 40px;
+}
+
+#result-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#result-description {
+  font-size: 16px;
+}
