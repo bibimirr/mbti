@@ -19,7 +19,7 @@ sudo apt install nginx
 ```
 2. 소스 다운
 ```shell
-git clone # TODO
+git clone https://github.com/bibimirr/mbti.git
 ```
 3. 다운 받은 소스를 Nginx doc root에 복사
 ```shell
