@@ -120,44 +120,6 @@ var questions = [
   }
 ];
 
-// // 이전 버튼 클릭 이벤트 핸들러
-// function goToPreviousQuestion() {
-//   currentIndex--;
-//   if (currentIndex >= 0) {
-//     displayQuestion();
-//   }
-// }
-
-// // 이전 버튼 클릭 시 이벤트 연결
-// var previousButton = document.getElementById("previous-button");
-// previousButton.addEventListener("click", goToPreviousQuestion);
-
-// 테스트 참여자 수
-var participantCount = 0; // 초기 값은 0으로 설정
-
-function updateParticipantCount() {
-  var countElement = document.getElementById("participant-count");
-  countElement.textContent = participantCount;
-}
-
-function processAnswer(answer) {
-  if (currentIndex < questions.length) {
-    // ...
-    currentIndex++;
-
-    // 테스트 참여자 수 업데이트
-    participantCount++;
-
-    updateParticipantCount();
-
-    if (currentIndex < questions.length) {
-      displayQuestion();
-    } else {
-      displayResult();
-    }
-  }
-}
-
 
 function displayQuestion() {
   var question = document.getElementById("question");
